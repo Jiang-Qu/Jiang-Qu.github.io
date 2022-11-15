@@ -104,7 +104,7 @@
      margin-left: 0px;
      font-family: Abuget, sans-serif;
      color: #fff;
-     font-size: 160px;
+     font-size: 50px;
      line-height: 40px;
      font-weight: 400;
    }
@@ -2060,7 +2060,9 @@
      .draw-line-top {
        height: 140px;
      }
-     
+     .map-parent {
+       display: none;
+     }
      .map-child {
        display: none;
      }
@@ -2302,7 +2304,6 @@
      }
      .hero-parent {
        top: -10%;
-       
      }
      .draw-line {
        bottom: 30px;
