@@ -1907,7 +1907,7 @@
    
    .key {
      position: absolute;
-     opacity: 0.4;
+     opacity: 0.8;
      -webkit-transform: rotate(20deg);
      -ms-transform: rotate(20deg);
      transform: rotate(20deg);
@@ -1916,10 +1916,10 @@
    .coin {
      position: absolute;
      left: auto;
-     top: 77%;
-     right: 15%;
+     top: 50%;
+     right: 35%;
      bottom: auto;
-     opacity: 0.4;
+     opacity: 0.8;
    }
    
    .coin-1 {
@@ -1928,16 +1928,16 @@
      top: 40%;
      right: auto;
      bottom: auto;
-     opacity: 0.4;
+     opacity: 0.8;
    }
    
    .coin-2 {
      position: absolute;
-     left: 30%;
+     left: 25%;
      top: auto;
      right: auto;
-     bottom: 20%;
-     opacity: 0.8;
+     bottom: 25%;
+     opacity: 0.6;
    }
    
    .coin-3 {
@@ -2040,6 +2040,7 @@
      border-color: #fff;
      border-radius: 20px;
    }
+   
    
    @media (max-width: 991px) {
      .text-a-1 {
